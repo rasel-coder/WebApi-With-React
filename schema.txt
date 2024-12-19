@@ -1,0 +1,36 @@
+CREATE DATABSE [StudentDB]
+GO
+USE [StudentDB]
+GO
+
+CREATE TABLE [dbo].[Students](
+    [id] 		[uniqueidentifier] NOT NULL,
+    [name] 		[nvarchar](max) NULL,
+    [gender] 		[int] NOT NULL,
+    [dob] 		[datetime2](7) NOT NULL,
+    [classId] 		[int] NOT NULL,
+    [createdDate] 	[datetime2](7) NOT NULL,
+    [modificationDate] 	[datetime2](7) NOT NULL
+)
+GO
+
+CREATE TABLE [dbo].[Classes](
+    [id] 		[int] IDENTITY(1,1) NOT NULL,
+    [name] 		[nvarchar](max) NULL,
+    [createdDate] 	[datetime2](7) NOT NULL,
+    [modificationDate] 	[datetime2](7) NOT NULL
+)
+GO
+
+INSERT INTO Classes (Name, CreatedDate, ModificationDate) 
+VALUES 
+('One', GETDATE(), GETDATE()), 
+('Two', GETDATE(), GETDATE()), 
+('Three', GETDATE(), GETDATE()), 
+('Four', GETDATE(), GETDATE()), 
+('Five', GETDATE(), GETDATE()), 
+('Six', GETDATE(), GETDATE()), 
+('Seven', GETDATE(), GETDATE()), 
+('Eight', GETDATE(), GETDATE()), 
+('Nine', GETDATE(), GETDATE()), 
+('Ten', GETDATE(), GETDATE());
