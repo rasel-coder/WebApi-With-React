@@ -1,4 +1,6 @@
-CREATE DATABSE [StudentDB]
+/* Please change the ConnectionStrings from the appsettings.json */
+
+CREATE DATABASE [StudentDB]
 GO
 USE [StudentDB]
 GO
@@ -22,7 +24,7 @@ CREATE TABLE [dbo].[Classes](
 )
 GO
 
-INSERT INTO Classes (Name, CreatedDate, ModificationDate) 
+INSERT INTO Classes (name, createdDate, modificationDate) 
 VALUES 
 ('One', GETDATE(), GETDATE()), 
 ('Two', GETDATE(), GETDATE()), 

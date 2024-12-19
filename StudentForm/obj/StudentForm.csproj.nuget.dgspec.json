@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DRIVE\\StudentForm\\StudentForm\\StudentForm.csproj": {}
+    "D:\\Test\\WebApi-With-React\\StudentForm\\StudentForm.csproj": {}
   },
   "projects": {
-    "D:\\DRIVE\\StudentForm\\StudentForm\\StudentForm.csproj": {
+    "D:\\Test\\WebApi-With-React\\StudentForm\\StudentForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DRIVE\\StudentForm\\StudentForm\\StudentForm.csproj",
+        "projectUniqueName": "D:\\Test\\WebApi-With-React\\StudentForm\\StudentForm.csproj",
         "projectName": "StudentForm",
-        "projectPath": "D:\\DRIVE\\StudentForm\\StudentForm\\StudentForm.csproj",
+        "projectPath": "D:\\Test\\WebApi-With-React\\StudentForm\\StudentForm.csproj",
         "packagesPath": "C:\\Users\\placo\\.nuget\\packages\\",
-        "outputPath": "D:\\DRIVE\\StudentForm\\StudentForm\\obj\\",
+        "outputPath": "D:\\Test\\WebApi-With-React\\StudentForm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
